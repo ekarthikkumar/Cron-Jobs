@@ -73,3 +73,12 @@ Cron-Jobs
 				db.commit()
 	except Exception as e:print e
 	db.close()
+
+
+**Set the time for the periodic task**
+
+*Login as sudo user*
+
+`crontab -e`
+
+	*/5 * * * * /usr/bin/python /home/karthik/cronjobs/task.py
