@@ -4,9 +4,9 @@ Cron-Jobs
 **Create python file and stored in location**
 
 
-`For Eg : /home/karthik/cronjobs/task.py
+`For Eg : /home/karthik/cronjobs/task.py`
 
-`task.py
+`task.py`
 
 	#!/usr/bin/python
 	import MySQLdb
