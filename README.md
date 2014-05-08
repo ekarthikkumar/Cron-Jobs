@@ -1,12 +1,12 @@
 Cron-Jobs
 =========
 
-Create python file and stored in location
------------------------------------------
+**Create python file and stored in location**
 
-For Eg : /home/karthik/cronjobs/task.py
 
-task.py
+`For Eg : /home/karthik/cronjobs/task.py
+
+`task.py
 
 	#!/usr/bin/python
 	import MySQLdb
@@ -16,7 +16,7 @@ task.py
 	from email.MIMEText import MIMEText
 	from email.MIMEImage import MIMEImage
 
-	db = MySQLdb.connect("xxx.xxx.xxx.xxx","username","password","server")
+	db = MySQLdb.connect("xxx.xxx.xxx.xxx","username","password","DB")
 	cursor = db.cursor()
 	sql = "select * from users"
 	try:
