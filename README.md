@@ -82,3 +82,5 @@ Cron-Jobs
 `crontab -e`
 
 	*/5 * * * * /usr/bin/python /home/karthik/cronjobs/task.py
+
+*The above python file will execute every 5 mins*
